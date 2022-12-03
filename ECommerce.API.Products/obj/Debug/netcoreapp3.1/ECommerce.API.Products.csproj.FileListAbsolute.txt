@@ -40,3 +40,4 @@ C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\EComm
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Products\obj\Debug\netcoreapp3.1\ECommerce.API.Products.dll
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Products\obj\Debug\netcoreapp3.1\ECommerce.API.Products.pdb
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Products\obj\Debug\netcoreapp3.1\ECommerce.API.Products.genruntimeconfig.cache
+C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Products\obj\Debug\netcoreapp3.1\ECommerce.API.Products.csproj.AssemblyReference.cache

@@ -40,3 +40,4 @@ C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\EComm
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Orders\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Orders\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Orders\obj\Debug\netcoreapp3.1\ECommerce.API.Orders.csproj.CopyComplete
+C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Orders\obj\Debug\netcoreapp3.1\ECommerce.API.Orders.csproj.AssemblyReference.cache

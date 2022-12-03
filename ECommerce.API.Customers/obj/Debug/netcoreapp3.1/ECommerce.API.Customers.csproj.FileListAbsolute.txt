@@ -40,3 +40,4 @@ C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\EComm
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Customers\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Customers\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Customers\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Customers\obj\Debug\netcoreapp3.1\ECommerce.API.Customers.csproj.AssemblyReference.cache

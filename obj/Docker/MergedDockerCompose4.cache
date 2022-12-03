@@ -1,0 +1,68 @@
+services:
+  ecommerce.api.customers:
+    build:
+      context: C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce
+      dockerfile: ECommerce.API.Customers\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.API.Customers
+      target: base
+    container_name: ECommerce.API.Customers
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus
+      /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+      NUGET_PACKAGES: C:\.nuget\packages
+    image: ecommerceapicustomers:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath c:\.nuget\packages  "C:\app\bin\Debug\netcoreapp3.1\ECommerce.API.Customers.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: C:\remote_debugger\x64\utils\KillProcess.exe
+        dotnet.exe
+      com.microsoft.visualstudio.debuggee.program: '"C:\Program Files\dotnet\dotnet.exe"'
+      com.microsoft.visualstudio.debuggee.workingdirectory: C:\app
+    ports:
+    - target: 80
+    volumes:
+    - C:\Users\Acer\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\Acer\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+    - C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Customers:C:\app:rw
+    - C:\Users\Acer\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+    - C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce:C:\src:rw
+    - C:\Users\Acer\.nuget\packages:c:\.nuget\packages:ro
+  ecommerce.api.orders:
+    build:
+      context: C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce
+      dockerfile: ECommerce.API.Orders\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.API.Orders
+      target: base
+    container_name: ECommerce.API.Orders
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus
+      /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+      NUGET_PACKAGES: C:\.nuget\packages
+    image: ecommerceapiorders:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath c:\.nuget\packages  "C:\app\bin\Debug\netcoreapp3.1\ECommerce.API.Orders.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: C:\remote_debugger\x64\utils\KillProcess.exe
+        dotnet.exe
+      com.microsoft.visualstudio.debuggee.program: '"C:\Program Files\dotnet\dotnet.exe"'
+      com.microsoft.visualstudio.debuggee.workingdirectory: C:\app
+    ports:
+    - target: 80
+    volumes:
+    - C:\Users\Acer\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\Acer\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+    - C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce\ECommerce.API.Orders:C:\app:rw
+    - C:\Users\Acer\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+    - C:\Users\Acer\Documents\Fall_2022\WebProgramming\Class_Exercises\ECommerce:C:\src:rw
+    - C:\Users\Acer\.nuget\packages:c:\.nuget\packages:ro
+version: '3.4'

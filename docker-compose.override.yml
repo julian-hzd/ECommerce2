@@ -1,36 +1,32 @@
 version: '3.4'
 
 services:
-  customers:
-    image: julianhzd/ecommerceapicustomers:latest
+  ecommerce.api.customers:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "80/http"
+       - "6002:80"
 
-  orders:
-    image: julianhzd/ecommerceapiorders:latest
+  ecommerce.api.orders:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "80/http"
+      - "6003:80"
 
 
-  products:
-    image: julianhzd/ecommerceapiproducts:latest
+  ecommerce.api.products:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
-      - "80/http"
+      - "6001:80"
 
 
-  search:
-    image: julianhzd/ecommerceapisearch:latest
+  ecommerce.api.search:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - Services__Products=https://ecommercehernandez.centralindia.cloudapp.azure.com:19081/Explorer/products/
-      - Services__Customers=https://ecommercehernandez.centralindia.cloudapp.azure.com:19081/Explorer/customers/
-      - Services__Orders=https://ecommercehernandez.centralindia.cloudapp.azure.com:19081/Explorer/orders/
+      - Services__Products=http://ecommerce.api.products
+      - Services__Customers=http://ecommerce.api.customers
+      - Services__Orders=http://ecommerce.api.orders
     ports:
       - "6004:80"
 

@@ -961,11 +961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
       "projectName": "ECommerce.API.Products",
-      "projectPath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
+      "projectPath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Products\\ECommerce.API.Products.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Products\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Products\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

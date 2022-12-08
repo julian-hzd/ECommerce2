@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "szXcDQuVna72YyOGnozYd9EPpiTs2K4q5LYL+3M49P4UOiM9OoQoHafEE1Sf96djdUURwryTB2dadwPqggA5wg==",
+  "dgSpecHash": "LIQwvm0/UzvZiPVcP0KmWvBN7O2px+7W5FH9lHAVmseOjU/yORrgoOPr5FKc/YuW24wQFh6X8/YYOHnXPS/ITg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

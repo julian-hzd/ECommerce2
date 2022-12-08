@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {}
+    "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {
+    "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Search\\ECommerce.API.Search.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
         "projectName": "ECommerce.API.Search",
-        "projectPath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
+        "projectPath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Search\\ECommerce.API.Search.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Search\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Search\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

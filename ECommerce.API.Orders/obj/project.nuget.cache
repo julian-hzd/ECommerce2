@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tGmPzgobkqBJziklOyTlpzemy7oJKRRfwWVfmo3yx9n9X2GovBDVRW5ZNvxEILPFfvipWK8O0xJJ6lXBHZDu+g==",
+  "dgSpecHash": "VRXZHdWSvEIOUTF7X3gbFYo5NAuPWa+JrjautaVYYimKw0w6gosZ+AFRSiu2yWMjeID6dIDQ+DSlUjXJKGaJvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Documents\\Fall_2022\\WebProgramming\\Class_Exercises\\ECommerce2\\ECommerce.API.Orders\\ECommerce.API.Orders.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
